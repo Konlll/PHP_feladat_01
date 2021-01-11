@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 30%;
+    margin-left: 30%;
+}
+
+form {
+    width: 90%;
+    padding: 3%;
+}
+
+legend {
+    font-family: Cambria;
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#hatter {
+    background-image: url('Hatter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 108.5%;
+
+        position: absolute;
+        z-index: 10;
+}
+
+fieldset {
+    border: 3px solid green;
+    position: relative;
+    padding-top: 25px;
+}
+
+/*Submit gomb*/
+input[type="submit"] {
+    margin-top: 5px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: lightgreen;
+    color: green;
+    border: 3px solid lime;
+    font-size: 20pt;
+    box-shadow: 6px 6px 10px darkgreen;
+    width: 15%;
+    height: 50px;
+}
+
+.szamBevitel{
+    font-size: 16px;
+    font-weight: bold;
+    color: brown;
+    background-color: bisque;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.bevitelKeret{
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    background-color: burlywood;
+    border: 3px solid saddlebrown;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.bevitelKeret.viszkozep{
+    margin: 0 auto 20px auto;
+}
+
+.bevitelKeret.fuggkozep{
+    position: absolute;
+    left: 61%;
+    top: 50%;
+    transform: translateY(-50%);
+}

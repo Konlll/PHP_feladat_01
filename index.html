@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keretező segédlet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hatter">
+        <form action="Szamol.php" method="GET">
+            <fieldset>
+                <legend>Keretező segédlet</legend>
+                <div class="bevitelKeret fuggkozep">
+                    <label for="magassag">Keret magassága:</label>
+                    <input type="number" name="magassag" id="magassag" min="10" max="200" class="szamBevitel" value="60">
+                </div>
+                <img src="keret.png" alt="">
+                <div class="bevitelKeret viszkozep">
+                    <label for="magassag">Keret szélessége:</label>
+                    <input type="number" name="szelesseg" id="szelesseg" min="10" max="200" class="szamBevitel" value="40">
+                </div>
+            </fieldset>
+            <input type="submit" value="Elküldés" id="submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>
